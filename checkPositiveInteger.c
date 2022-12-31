@@ -2,12 +2,13 @@
 //  Input: String
 //  Process: Check if the string is a positive integer
 //  Output: Prompt whether the string is a positive integer or not, underlying integer representation of the string
+//  Return: Runtime status
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
-int checkPositiveInteger(char *inputString);
+int checkPositiveInteger(char *inputString);                    //  Prototype for core function
 
 int main()
 {
