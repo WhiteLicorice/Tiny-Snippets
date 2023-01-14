@@ -37,3 +37,12 @@ def main(string : str = "this is a test string") -> None:
     print("String:", string)
     print("Modal Character(s):", *res[0])
     print("Frequency:", res[1])
+
+if __name__ == "__main__":
+    test_string = ' '
+    print("This program finds the modal characters in a string via a hashing algorithm.\nPass a blank input to quit (simply press Enter when prompted for a test string).")
+    while True:  
+        test_string = str(input("Please input a test string: "))
+        if test_string == '':
+            break
+        main(test_string)
